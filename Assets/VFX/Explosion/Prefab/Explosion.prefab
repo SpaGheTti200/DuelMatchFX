@@ -1053,7 +1053,16 @@ ParticleSystem:
           inWeight: 0
           outWeight: 0.10541311
         - serializedVersion: 3
-          time: 0.75
+          time: 0.5673487
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.9649445
           value: 1
           inSlope: 0
           outSlope: 0
@@ -14627,12 +14636,12 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 2892510027116791680}
+  - {fileID: 1726760470948144403}
   - {fileID: 1316299860992763328}
   - {fileID: 7097534494203261731}
-  - {fileID: 2892510027116791680}
   - {fileID: 4799905895779704789}
   - {fileID: 9213313868485380783}
-  - {fileID: 1726760470948144403}
   - {fileID: 9169304073457672573}
   - {fileID: 8874809007348229383}
   m_Father: {fileID: 0}
@@ -16021,8 +16030,8 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 1, g: 1, b: 1, a: 1}
-        key1: {r: 1, g: 1, b: 1, a: 1}
+        key0: {r: 1, g: 0, b: 0, a: 1}
+        key1: {r: 1, g: 0.41037738, b: 0.41037738, a: 1}
         key2: {r: 0.23529413, g: 0.23529413, b: 0.23529413, a: 0}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
