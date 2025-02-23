@@ -55,7 +55,8 @@ public class LighteningScript : MonoBehaviour
 		max = rows * columns;
 		// add Line renderer
 		if (rend == null)
-			rend = gameObject.AddComponent<LineRenderer>() as LineRenderer; 
+			// rend = gameObject.AddComponent<LineRenderer>() as LineRenderer; 
+		rend = gameObject.GetComponent<LineRenderer>();
 	
 		rend.SetVertexCount(points);
 		//apply material
