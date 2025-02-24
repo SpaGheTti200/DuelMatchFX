@@ -59,9 +59,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 3450e1c507dfd534aa0dbff5b8c574c3, type: 3}
-        m_Scale: {x: 0.28, y: 0.125}
-        m_Offset: {x: 0.5, y: 0.25}
+        m_Texture: {fileID: 2800000, guid: 3187fce37438ff145b5ddc73aa7e1433, type: 3}
+        m_Scale: {x: 0.32, y: 0.25}
+        m_Offset: {x: 0, y: 0.75}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -81,14 +81,14 @@ Material:
     m_Ints: []
     m_Floats:
     - PixelSnap: 0
+    - _AlphaMultiplier: 1
     - _BumpScale: 1
     - _ColorMask: 15
     - _Cutoff: 0.9
     - _DetailNormalMapScale: 1
-    - _DstBlend: 10
     - _EmissionScaleUI: 0
-    - _Glossiness: 0
-    - _InvFade: 3
+    - _Glossiness: 0.1
+    - _InvFade: 0.01
     - _Metallic: 0
     - _Mode: 2
     - _OcclusionStrength: 1
@@ -99,10 +99,10 @@ Material:
     - _StencilComp: 8
     - _StencilOp: 0
     - _StencilReadMask: 255
-    - _StencilWriteMask: 255
+    - _StencilWriteMask: 8
     - _Strength: 0.2
     - _UVSec: 0
-    - _ZWrite: 0
+    - _ZWrite: 255
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmisColor: {r: 1, g: 1, b: 1, a: 1}
@@ -110,5 +110,5 @@ Material:
     - _EmissionColorUI: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _Specular: {r: 0, g: 0, b: 0, a: 0}
-    - _TintColor: {r: 0.38235274, g: 0.3602941, b: 1, a: 1}
+    - _TintColor: {r: 0.32872018, g: 0.43355832, b: 0.7830189, a: 1}
   m_BuildTextureStacks: []

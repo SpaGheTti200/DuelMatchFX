@@ -30,8 +30,8 @@ public class LighteningScript : MonoBehaviour
 
 	void Start()
 	{
-		Initialize();
-		StartCoroutine(updateTiling());
+		// Initialize();
+		// StartCoroutine(updateTiling());
 	}
 
 	void OnDisable()
@@ -43,11 +43,18 @@ public class LighteningScript : MonoBehaviour
 
 	void OnEnable()
 	{
-		if (rend != null) {
-			rend.enabled = true;
-			Initialize();
-			StartCoroutine(updateTiling());
-		}
+		// if (rend != null) {
+		// 	rend.enabled = true;
+		// 	Initialize();
+		// 	StartCoroutine(updateTiling());
+		// }
+	}
+
+	public void DoLightening()
+	{
+		Debug.Log("QWEQEW");
+		Initialize();
+		StartCoroutine(updateTiling());
 	}
 
 	public void Initialize()

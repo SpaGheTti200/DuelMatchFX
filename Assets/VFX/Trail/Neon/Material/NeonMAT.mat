@@ -22,21 +22,30 @@ Material:
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs: []
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - _Alpha: 0.777
+    - _AlphaMultiplier: 1
     - _DissolveAmount: 0.879
     - _DissolveEdgeStart: 0.397
     - _DissolveScale: 289
+    - _EdgeWidth: 0.1
     - _GlowIntensity: 0.21
     - _GlowRadius: 1.75
     - _GlowSoftness: 1.77
+    - _GradientExponent: 1
     - _HaloIntensity: 3.28
     - _HaloSize: 0.033
     - _OutlineThickness: 0.1
     m_Colors:
     - _BaseColor: {r: 0, g: 0.18165016, b: 1, a: 1}
     - _GlowColor: {r: 0.9528302, g: 0.9528302, b: 0.9528302, a: 1}
+    - _InnerColor: {r: 1, g: 1, b: 1, a: 1}
+    - _OuterColor: {r: 1, g: 1, b: 1, a: 1}
     - _OutlineColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
